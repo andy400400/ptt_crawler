@@ -1,0 +1,9 @@
+CREATE TABLE `stock_push` (
+  `seq` int(11) NOT NULL AUTO_INCREMENT,
+  `url` varchar(25) DEFAULT NULL,
+  `tag` varchar(4) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL,
+  `user_id` varchar(12) DEFAULT NULL,
+  `msg` varchar(80) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL,
+  `push_time` varchar(15) DEFAULT NULL,
+  PRIMARY KEY (`seq`)
+) ENGINE=InnoDB AUTO_INCREMENT=1885 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
